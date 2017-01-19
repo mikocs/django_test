@@ -54,7 +54,7 @@ def simple_chart(request):
 
 	script, div = components(plot, CDN)
 
-	return render(request, 'polls/simple_chart.html', {"the_script": script, "the_div": div})
+	return render(request, 'polls/simple_chart.html', {"the_script": script, "the_div": div, "what_dis": "OK, it works"})
 
 def detail(request, question_id):
 	question = get_object_or_404(Question, pk=question_id)
