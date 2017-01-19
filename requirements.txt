@@ -1,0 +1,6 @@
+ Django
+ psycopg2
+ numpy
+ pandas
+ matplotlib
+ bokeh
